@@ -1,46 +1,22 @@
-appnope 
-asttokens 
-click==8.3.1
-comm 
-debugpy 
-decorator 
-executing 
-ipykernel 
-ipython 
-ipython_pygments_lexers 
-jedi 
-joblib 
-jupyter_client 
-jupyter_core 
-matplotlib-inline 
-nest_asyncio 
+# Direct dependencies for ANN Classification project
+# Core ML & Data Processing
+tensorflow-macos==2.16.2
+keras==3.12.1
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+
+# Visualization
+matplotlib==3.10.8
+
+# Web Framework
+streamlit==1.56.0
+
+# Monitoring
+tensorboard==2.16.2
+
+# NLP & Utilities
 nltk==3.9.2
-numpy 
-packaging 
-pandas 
-parso 
-pexpect 
-platformdirs 
-prompt_toolkit 
-psutil 
-ptyprocess 
-pure_eval 
-Pygments 
-python-dateutil 
-pyzmq 
-regex==2026.1.15
-scikit-learn 
-scipy 
-six 
-stack_data 
-threadpoolctl 
-tornado 
 tqdm==4.67.3
-traitlets 
-typing_extensions 
-wcwidth 
-tensorflow-macos
-tensorboard
-matplotlib
-pandas
-streamlit
+wrapt==2.1.2
