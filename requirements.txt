@@ -1,6 +1,6 @@
 # Direct dependencies for ANN Classification project
 # Core ML & Data Processing
-tensorflow-macos==2.16.2
+tensorflow
 keras==3.12.1
 numpy==1.26.4
 pandas==2.3.3
